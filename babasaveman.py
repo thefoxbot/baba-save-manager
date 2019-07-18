@@ -381,7 +381,7 @@ if __name__ == '__main__':
     # get OS this app is running on and the save path
     path = ''
     if sys.platform.startswith('linux'):
-        path = os.path.expanduser('~/Baba_Is_You')
+        path = os.path.expanduser('~/.local/share/Baba_Is_You')
     elif sys.platform.startswith('win32'):
         path = os.path.expandvars('%APPDATA%')
         path = os.path.join(path, 'Baba_Is_You')
