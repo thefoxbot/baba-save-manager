@@ -18,7 +18,7 @@ The executable will be located in the `dist/` folder.
 
 The SPEC file was generated with the following command:
 ```
-pyinstaller --add-data "icon.png;icon.png" -i "icon.ico" --noconsole --onefile babasaveman.py
+pyinstaller --add-data "icon.png;." -i "icon.ico" --noconsole --onefile babasaveman.py
 ```
 
 The executable provided in releases is built with UPX.
