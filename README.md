@@ -21,8 +21,6 @@ The SPEC file was generated with the following command:
 pyinstaller --add-data "icon.png;." -i "icon.ico" --noconsole --onefile babasaveman.py
 ```
 
-The executable provided in releases is built with UPX.
-
 ## Understanding the save data
 The following table describes data found under the "Properties" section:
 
@@ -39,5 +37,7 @@ Each entry in `converts` has a corresponding entry under the "Level converts" se
 which notes down the level it contains and what it is transformed to.
 
 ## Changelog
+- v1.0.1
+  - Removed UPX compression.
 - v1.0
   - Initial release.
