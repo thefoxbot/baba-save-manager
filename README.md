@@ -3,6 +3,9 @@ Easy save manager for Baba Is You.
 
 This app requires Python 3 with the `PyQt5` package.
 
+**IMPORTANT!** Always back up your saves first before editing it!
+The author will not be liable for any loss of data.
+
 ## Building
 Additionally, to build the app, the `PyInstaller` package is needed as well.
 
