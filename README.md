@@ -7,7 +7,7 @@ This app requires Python 3 with the `PyQt5` package.
 The author will not be liable for any loss of data.
 
 ## Building
-Additionally, to build the app, the `PyInstaller` package is needed as well.
+To build the app, the `PyInstaller` package is needed as well.
 
 In the directory, run
 ```
